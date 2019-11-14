@@ -1,7 +1,8 @@
+//#include "MiniProjet.cpp"
 
 void setup() {
-  // put your setup code here, to run once:
-
+  //mp::init();
+  Serial.println(mp::IP);
 }
 
 void loop() {
