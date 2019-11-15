@@ -1,8 +1,8 @@
-//#include "MiniProjet.cpp"
+#include "MiniProjet.hpp"
 
 void setup() {
-  //mp::init();
-  Serial.println(mp::IP);
+  mp::init();
+  
 }
 
 void loop() {
