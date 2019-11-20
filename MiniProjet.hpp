@@ -153,5 +153,7 @@ namespace mp {
       return MP_ERR_ALREADY_SYNC;
 
     nextSync = millis() + MP_SYNC_DELAY;
+    
+    processHTTPRequest();
   }
 }

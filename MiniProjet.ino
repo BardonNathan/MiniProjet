@@ -19,7 +19,6 @@ void setup() {
   }
 
 
-  
   Serial.println("== IP configuration ==");
   Serial.print("IP address : "); Serial.println(Ethernet.localIP());
   Serial.print("Mask : ");       Serial.println(Ethernet.subnetMask());
