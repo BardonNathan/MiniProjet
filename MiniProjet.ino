@@ -12,7 +12,7 @@
 #define PIN_LUM   A3
 #define PIN_TEMP  A4
 
-#define PIN_7SEGA 9
+#define PIN_7SEGA 9 
 #define PIN_7SEGB 2
 #define PIN_REG_SIN 3
 #define PIN_REG_CLK 8

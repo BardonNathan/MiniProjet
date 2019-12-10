@@ -128,10 +128,10 @@ namespace mp {
     // Send HTTP request
     c.print("GET http://");
     c.print(MP_SRV);
-    c.print("/sync.php?");
+    c.print("/sync.php?arduino");
 
     // Send sensor values
-    c.print("btn1=");  c.print(varval.btn1);
+    c.print("&btn1=");  c.print(varval.btn1);
     c.print("&btn2=");  c.print(varval.btn2);
     c.print("&btn3=");  c.print(varval.btn3);
     c.print("&pota1="); c.print(varval.pota1);
