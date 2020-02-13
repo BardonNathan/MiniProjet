@@ -226,9 +226,7 @@ namespace mp {
       //                 get tens                       get units
       byte n = first ? (mp::varval.segments / 10) % 100 : mp::varval.segments % 10;
       n = (n < 0 || n > 9) ? 0b01111111 : segs_template[n];
-      Serial.print(first ?"a":"b");
-      Serial.println(n, BIN);
-    
+      
       // For each bits, write HIGH level for a 1 or LOW for a 0 to register's SIG pin
       //                Pulse clock
       for (int i = 0 ; i < 8 ; i++) {
